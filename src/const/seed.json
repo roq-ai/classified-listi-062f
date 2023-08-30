@@ -1,0 +1,2152 @@
+[
+  {
+    "user_role": [
+      {
+        "id": "4c5cdc65-5462-41e1-b778-20d04f0a6b03",
+        "role_name": "Admin",
+        "created_at": "2023-08-30T04:34:39.125Z",
+        "updated_at": "2023-08-30T07:42:04.213Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7988006c-4085-44ad-b9f8-8377418411c7",
+        "role_name": "Manager",
+        "created_at": "2023-08-30T11:22:33.664Z",
+        "updated_at": "2023-08-30T07:42:29.949Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "da04ce62-b909-4623-ac8d-a925cfd5d1c8",
+        "role_name": "Employee",
+        "created_at": "2023-08-30T14:48:35.276Z",
+        "updated_at": "2023-08-30T02:22:08.254Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cdc55d1f-129b-4e36-bda7-2018ad63a5e1",
+        "role_name": "Supervisor",
+        "created_at": "2023-08-30T00:22:16.846Z",
+        "updated_at": "2023-08-30T14:54:50.587Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "da565721-91b3-474e-9259-0184b8d4eff5",
+        "role_name": "Analyst",
+        "created_at": "2023-08-30T10:37:25.366Z",
+        "updated_at": "2023-08-30T12:37:24.658Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "listing": [
+      {
+        "id": "4175c306-7bbb-44c8-87ad-632be8cbcc02",
+        "title": "Job Opening: Software Engineer",
+        "description": "Join our team of talented developers",
+        "price": 53076,
+        "category": "Jobs",
+        "status": "Active",
+        "created_at": "2023-08-30T16:58:32.003Z",
+        "updated_at": "2023-08-30T01:09:35.768Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "4d7eb596-bb06-40f8-a32c-4ce2fce4b949",
+        "title": "For Sale: Brand New iPhone",
+        "description": "Get the latest iPhone model at a great price",
+        "price": 31650,
+        "category": "For Sale",
+        "status": "Inactive",
+        "created_at": "2023-08-30T10:18:41.498Z",
+        "updated_at": "2023-08-30T12:34:26.808Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "a27a4d39-f41d-4fab-9cf0-a97749d23978",
+        "title": "Rent: Spacious Apartment in City Center",
+        "description": "Live in a modern apartment with great amenities",
+        "price": 22375,
+        "category": "Rentals",
+        "status": "Pending",
+        "created_at": "2023-08-30T10:35:26.641Z",
+        "updated_at": "2023-08-30T02:18:03.094Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "65e5d736-53b8-4762-8360-02550a7a9631",
+        "title": "Gig: Professional Photographer for Events",
+        "description": "Capture special moments with our professional photography services",
+        "price": 26709,
+        "category": "Gigs",
+        "status": "Sold",
+        "created_at": "2023-08-30T04:04:08.929Z",
+        "updated_at": "2023-08-29T22:04:49.163Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "4bc13497-44ce-4c98-bf5f-4f4dba285249",
+        "title": "Service: Personal Fitness Trainer",
+        "description": "Achieve your fitness goals with a dedicated personal trainer",
+        "price": 90658,
+        "category": "Services",
+        "status": "Completed",
+        "created_at": "2023-08-30T01:32:29.977Z",
+        "updated_at": "2023-08-30T11:26:31.522Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "customer": [
+      {
+        "id": "d906e40f-bb3f-44e4-b67d-59063f55705e",
+        "first_name": "Alice",
+        "last_name": "Johnson",
+        "email": "alice.johnson@example.com",
+        "password": "p@ssw0rd",
+        "address": "987 Park Avenue",
+        "city": "San Francisco",
+        "state": "CA",
+        "zip_code": "94101",
+        "created_at": "2023-08-29T22:58:33.532Z",
+        "updated_at": "2023-08-30T07:32:05.873Z"
+      },
+      {
+        "id": "875a9c3f-8565-4e08-964d-a7a37ad8d1bc",
+        "first_name": "Bob",
+        "last_name": "Smith",
+        "email": "bob.smith@example.com",
+        "password": "secure123",
+        "address": "654 Broadway",
+        "city": "Seattle",
+        "state": "WA",
+        "zip_code": "98101",
+        "created_at": "2023-08-30T10:55:26.509Z",
+        "updated_at": "2023-08-29T23:21:29.860Z"
+      },
+      {
+        "id": "1e4a47e4-a8a1-40aa-996b-51ada6892856",
+        "first_name": "Eve",
+        "last_name": "Brown",
+        "email": "eve.brown@example.com",
+        "password": "password123",
+        "address": "321 Main Street",
+        "city": "Boston",
+        "state": "MA",
+        "zip_code": "02101",
+        "created_at": "2023-08-29T23:14:18.966Z",
+        "updated_at": "2023-08-30T12:23:47.973Z"
+      },
+      {
+        "id": "de3fc2d0-5df3-4ffb-8c6d-5f5efa733d03",
+        "first_name": "Charlie",
+        "last_name": "Davis",
+        "email": "charlie.davis@example.com",
+        "password": "qwerty",
+        "address": "789 Elm Avenue",
+        "city": "Denver",
+        "state": "CO",
+        "zip_code": "80201",
+        "created_at": "2023-08-30T18:18:17.709Z",
+        "updated_at": "2023-08-30T12:04:06.010Z"
+      },
+      {
+        "id": "a07368c1-9894-4caa-be66-cf40be8383f2",
+        "first_name": "David",
+        "last_name": "Miller",
+        "email": "david.miller@example.com",
+        "password": "123456",
+        "address": "456 Oak Drive",
+        "city": "Austin",
+        "state": "TX",
+        "zip_code": "78701",
+        "created_at": "2023-08-30T16:48:17.128Z",
+        "updated_at": "2023-08-30T17:26:46.874Z"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "9e09e667-12a0-4faf-bfa5-274f93f457e7",
+        "email": "Jovany_Hirthe@yahoo.com",
+        "firstName": "Brett",
+        "lastName": "Corkery",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/625.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c76a336b-0dbd-464d-a287-ecb44ea631ca",
+        "email": "Loyal33@hotmail.com",
+        "firstName": "Eleazar",
+        "lastName": "Dach",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/55888059",
+        "tenantId": null
+      },
+      {
+        "reference": "ec859a68-ae8d-4ef0-8e3c-8c5f67e25529",
+        "email": "Jerome.Spencer@gmail.com",
+        "firstName": "Willow",
+        "lastName": "Schiller",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/52797925",
+        "tenantId": null
+      },
+      {
+        "reference": "24bdaf6b-3c6c-415c-9e0c-6d82d1c0e60e",
+        "email": "Garret.Casper82@yahoo.com",
+        "firstName": "Zetta",
+        "lastName": "Batz",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/490.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "be925ca9-6adc-49b5-91b4-8d9f539f3f8d",
+        "email": "Vernie.Howe@yahoo.com",
+        "firstName": "Joan",
+        "lastName": "Farrell",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/515.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "user_role": [
+      {
+        "id": "e7bb4f75-caf1-474b-a670-f7f3e09b68e5",
+        "role_name": "Admin",
+        "created_at": "2023-08-30T17:05:49.476Z",
+        "updated_at": "2023-08-30T09:20:18.600Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1d93966d-48d6-4ea8-8910-f23ba028054f",
+        "role_name": "Manager",
+        "created_at": "2023-08-30T00:23:35.858Z",
+        "updated_at": "2023-08-29T22:31:55.182Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bc17bdc0-8143-4022-8ae0-44a96d01a547",
+        "role_name": "Supervisor",
+        "created_at": "2023-08-30T13:49:02.458Z",
+        "updated_at": "2023-08-29T23:08:08.670Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0d48914f-690e-4f2d-accc-c4fcc0f46803",
+        "role_name": "Employee",
+        "created_at": "2023-08-29T23:53:47.711Z",
+        "updated_at": "2023-08-30T14:45:30.954Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b4ac23eb-251a-4f92-a3c8-2acc6ff5bb7c",
+        "role_name": "Guest",
+        "created_at": "2023-08-30T18:40:54.010Z",
+        "updated_at": "2023-08-29T22:18:58.410Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "listing": [
+      {
+        "id": "9f76e914-a698-462e-b83e-b48f054288f5",
+        "title": "Job Opening: Software Engineer",
+        "description": "Seeking a skilled software engineer to join our team",
+        "price": 87128,
+        "category": "Jobs",
+        "status": "Active",
+        "created_at": "2023-08-29T23:37:19.012Z",
+        "updated_at": "2023-08-30T17:51:23.040Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "db04ada1-4b6d-4bbc-9ed6-9671e98b9518",
+        "title": "Apartment for Rent: 2 Bedroom",
+        "description": "Spacious apartment with great amenities",
+        "price": 53277,
+        "category": "Real Estate",
+        "status": "Inactive",
+        "created_at": "2023-08-30T11:28:20.551Z",
+        "updated_at": "2023-08-30T03:00:58.348Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "f415c5f4-48fc-4e81-876e-5dee48dfdaf1",
+        "title": "Car for Sale: Honda Civic",
+        "description": "Reliable car in excellent condition",
+        "price": 73680,
+        "category": "Vehicles",
+        "status": "Pending",
+        "created_at": "2023-08-30T07:05:44.239Z",
+        "updated_at": "2023-08-30T05:18:44.775Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "baceeb75-8bb0-42de-9c86-eecc603e2476",
+        "title": "Furniture for Sale: Dining Table",
+        "description": "Elegant dining table made of solid wood",
+        "price": 12775,
+        "category": "Furniture",
+        "status": "Sold",
+        "created_at": "2023-08-29T22:03:50.860Z",
+        "updated_at": "2023-08-29T20:53:50.047Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "714a8785-cc76-4228-9de9-9ef4c5b1038d",
+        "title": "Event Tickets: Concert",
+        "description": "Tickets to see your favorite band live",
+        "price": 5704,
+        "category": "Events",
+        "status": "Expired",
+        "created_at": "2023-08-30T06:49:34.960Z",
+        "updated_at": "2023-08-30T09:55:36.461Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "customer": [
+      {
+        "id": "23d401ec-2a4d-4173-badf-349046659c7f",
+        "first_name": "Alice",
+        "last_name": "Johnson",
+        "email": "alice.johnson@gmail.com",
+        "password": "P@ssw0rd",
+        "address": "789 Main Street",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10001",
+        "created_at": "2023-08-30T05:40:18.833Z",
+        "updated_at": "2023-08-30T15:49:36.827Z"
+      },
+      {
+        "id": "10ab6093-0b94-42b6-a92c-ce1b71d3edb2",
+        "first_name": "Bob",
+        "last_name": "Smith",
+        "email": "bob.smith@yahoo.com",
+        "password": "Secure123",
+        "address": "456 Elm Avenue",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip_code": "90001",
+        "created_at": "2023-08-30T09:15:21.431Z",
+        "updated_at": "2023-08-29T21:41:38.275Z"
+      },
+      {
+        "id": "7992402e-f4a3-4d27-b441-c4e0ef6c5754",
+        "first_name": "Eve",
+        "last_name": "Brown",
+        "email": "eve.brown@hotmail.com",
+        "password": "Password123",
+        "address": "123 Oak Drive",
+        "city": "Chicago",
+        "state": "IL",
+        "zip_code": "60601",
+        "created_at": "2023-08-30T13:46:55.194Z",
+        "updated_at": "2023-08-30T11:42:17.884Z"
+      },
+      {
+        "id": "cb7526c2-2537-4a82-9020-35eef8079cc2",
+        "first_name": "Charlie",
+        "last_name": "Davis",
+        "email": "charlie.davis@gmail.com",
+        "password": "Secret!23",
+        "address": "321 Pine Lane",
+        "city": "Houston",
+        "state": "TX",
+        "zip_code": "77001",
+        "created_at": "2023-08-30T00:58:38.402Z",
+        "updated_at": "2023-08-30T07:38:37.740Z"
+      },
+      {
+        "id": "6b4d71b1-57e4-448e-b055-766c672f4d30",
+        "first_name": "Olivia",
+        "last_name": "Wilson",
+        "email": "olivia.wilson@yahoo.com",
+        "password": "StrongPassword",
+        "address": "654 Maple Road",
+        "city": "Miami",
+        "state": "FL",
+        "zip_code": "33101",
+        "created_at": "2023-08-30T04:55:18.275Z",
+        "updated_at": "2023-08-30T15:48:08.476Z"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "7ef19f2b-5fdd-4a5e-8c16-facb511aca52",
+        "email": "Gino.Wiegand69@hotmail.com",
+        "firstName": "Gonzalo",
+        "lastName": "Runolfsson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/89736493",
+        "tenantId": null
+      },
+      {
+        "reference": "a3f060d5-0fdd-4cc9-9a52-9da0f12a61ac",
+        "email": "Georgette3@yahoo.com",
+        "firstName": "Orval",
+        "lastName": "Jenkins",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/43.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "dceb7d1b-a6b4-4bc3-b911-034e32963547",
+        "email": "Pearline.Mante@gmail.com",
+        "firstName": "Skyla",
+        "lastName": "Zemlak",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/831.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d8c183c6-9b78-4faf-848f-87b561e6e3e3",
+        "email": "Bernadine31@gmail.com",
+        "firstName": "Felton",
+        "lastName": "Moen",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/49140036",
+        "tenantId": null
+      },
+      {
+        "reference": "888bfdb4-ac70-4574-bf37-1d391c962eec",
+        "email": "Israel.Runte@gmail.com",
+        "firstName": "Lolita",
+        "lastName": "Walker",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1158.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "user_role": [
+      {
+        "id": "b52a6a1c-5c83-43d2-91d4-a4ac204eeb89",
+        "role_name": "Admin",
+        "created_at": "2023-08-30T14:17:24.029Z",
+        "updated_at": "2023-08-30T08:49:55.034Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "93cdc7ba-c3ec-46ca-8a5a-5c498f95864a",
+        "role_name": "Manager",
+        "created_at": "2023-08-30T02:32:56.759Z",
+        "updated_at": "2023-08-29T20:32:46.890Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "92afb97a-6853-4ef3-b398-3fd55ff180d6",
+        "role_name": "Employee",
+        "created_at": "2023-08-29T21:18:13.098Z",
+        "updated_at": "2023-08-30T09:26:02.096Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9043fdad-1841-4147-8ed1-4351725df4e4",
+        "role_name": "Supervisor",
+        "created_at": "2023-08-30T16:26:39.120Z",
+        "updated_at": "2023-08-30T16:58:57.184Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b6f489de-2701-4967-a7e3-33e52ccf2ab8",
+        "role_name": "Coordinator",
+        "created_at": "2023-08-30T15:46:53.878Z",
+        "updated_at": "2023-08-30T05:06:40.212Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "listing": [
+      {
+        "id": "a6ff45c4-8814-4888-826e-e8e06b8ac379",
+        "title": "Luxury Apartment with Stunning Views",
+        "description": "This luxurious apartment offers breathtaking views of the city skyline.",
+        "price": 53772,
+        "category": "Real Estate",
+        "status": "Active",
+        "created_at": "2023-08-30T02:24:05.813Z",
+        "updated_at": "2023-08-30T05:21:11.043Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "2216e5fa-b5d3-4de0-8062-88c5903c0240",
+        "title": "Cozy Cottage in the Countryside",
+        "description": "Escape to this charming cottage surrounded by beautiful nature.",
+        "price": 98277,
+        "category": "Vacation Rentals",
+        "status": "Pending",
+        "created_at": "2023-08-29T23:04:29.382Z",
+        "updated_at": "2023-08-29T20:48:15.190Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "81613162-e95b-4711-8edd-bf5f3c5b3d27",
+        "title": "Spacious Family Home near the Beach",
+        "description": "Ideal for families, this spacious home provides all the comforts you need.",
+        "price": 38046,
+        "category": "Home Improvement",
+        "status": "Sold",
+        "created_at": "2023-08-29T19:48:06.767Z",
+        "updated_at": "2023-08-29T20:44:54.705Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "ef1573a8-50b9-482d-8da9-9a04a862499b",
+        "title": "Modern Loft in the City Center",
+        "description": "Experience urban living in this modern loft with stylish design.",
+        "price": 17611,
+        "category": "Electronics",
+        "status": "Expired",
+        "created_at": "2023-08-30T14:45:37.843Z",
+        "updated_at": "2023-08-30T01:37:09.165Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "6683e541-5e25-445d-8b90-4af4a8d10ed6",
+        "title": "Charming Victorian House in Historic District",
+        "description": "Step back in time in this beautifully restored Victorian house.",
+        "price": 61221,
+        "category": "Vehicles",
+        "status": "Featured",
+        "created_at": "2023-08-30T13:25:46.473Z",
+        "updated_at": "2023-08-30T14:43:13.088Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "customer": [
+      {
+        "id": "3b32f415-27fb-4c10-88d6-c60e3c4939c7",
+        "first_name": "Emily",
+        "last_name": "Johnson",
+        "email": "emily.johnson@gmail.com",
+        "password": "P@ssw0rd",
+        "address": "789 Main Street",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10001",
+        "created_at": "2023-08-30T14:53:30.771Z",
+        "updated_at": "2023-08-30T17:43:11.957Z"
+      },
+      {
+        "id": "ba4c10d7-de12-4584-a0bb-e93b7bd42188",
+        "first_name": "David",
+        "last_name": "Anderson",
+        "email": "david.anderson@yahoo.com",
+        "password": "Secure123",
+        "address": "123 Elm Avenue",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip_code": "90001",
+        "created_at": "2023-08-30T11:00:34.300Z",
+        "updated_at": "2023-08-30T09:51:03.347Z"
+      },
+      {
+        "id": "d766aafc-4765-45cb-8271-cbdbb17a5f48",
+        "first_name": "Olivia",
+        "last_name": "Williams",
+        "email": "olivia.williams@hotmail.com",
+        "password": "Secret!23",
+        "address": "456 Oak Lane",
+        "city": "Chicago",
+        "state": "IL",
+        "zip_code": "60601",
+        "created_at": "2023-08-30T08:49:03.180Z",
+        "updated_at": "2023-08-30T07:20:46.250Z"
+      },
+      {
+        "id": "ad8591eb-66bf-4284-9a6b-453222e422f7",
+        "first_name": "Daniel",
+        "last_name": "Smith",
+        "email": "daniel.smith@gmail.com",
+        "password": "Password456",
+        "address": "321 Pine Road",
+        "city": "Houston",
+        "state": "TX",
+        "zip_code": "77001",
+        "created_at": "2023-08-30T14:18:52.838Z",
+        "updated_at": "2023-08-30T03:46:27.852Z"
+      },
+      {
+        "id": "8eefdd1c-35aa-470d-ae8b-926eefd7b1f7",
+        "first_name": "Sophia",
+        "last_name": "Brown",
+        "email": "sophia.brown@yahoo.com",
+        "password": "SafePwd789",
+        "address": "654 Maple Drive",
+        "city": "Miami",
+        "state": "FL",
+        "zip_code": "33101",
+        "created_at": "2023-08-30T05:43:26.903Z",
+        "updated_at": "2023-08-30T09:56:40.399Z"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "c4e5e131-5cc0-4945-806e-f4ed2fb82fa4",
+        "email": "Cierra.Schuster@hotmail.com",
+        "firstName": "Lauryn",
+        "lastName": "Hane",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6583652",
+        "tenantId": null
+      },
+      {
+        "reference": "b7dd20ad-5604-44d6-9a2c-2cafe9ee8508",
+        "email": "Hipolito43@gmail.com",
+        "firstName": "Sandrine",
+        "lastName": "Rath",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/207.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d5afa156-75f0-40d8-a149-a81383254bbc",
+        "email": "Ronny_Denesik@yahoo.com",
+        "firstName": "Emmitt",
+        "lastName": "Grady",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/51838905",
+        "tenantId": null
+      },
+      {
+        "reference": "cd36a913-7a28-46c7-a869-2d8eabb45d0a",
+        "email": "Krystel70@yahoo.com",
+        "firstName": "Jarvis",
+        "lastName": "Mayert",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/87856474",
+        "tenantId": null
+      },
+      {
+        "reference": "c2a893e9-a22b-4ffb-940c-1c6196c275cd",
+        "email": "Garrett_Monahan49@yahoo.com",
+        "firstName": "Jerod",
+        "lastName": "Torp",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/471.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "user_role": [
+      {
+        "id": "7a9a96a6-201f-41ec-8495-b7edf25bec8a",
+        "role_name": "Admin",
+        "created_at": "2023-08-30T15:49:33.372Z",
+        "updated_at": "2023-08-29T19:48:48.562Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fb0580f0-86ac-44f1-bf97-16742e96f471",
+        "role_name": "Manager",
+        "created_at": "2023-08-30T14:13:11.025Z",
+        "updated_at": "2023-08-29T22:44:13.403Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "db3e9f8b-aaae-42f7-a036-27e41a931b48",
+        "role_name": "Employee",
+        "created_at": "2023-08-30T02:23:15.342Z",
+        "updated_at": "2023-08-30T05:12:09.308Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aab81114-3fa4-46ba-9dd4-d1ecafa7bbdc",
+        "role_name": "Supervisor",
+        "created_at": "2023-08-30T12:05:34.601Z",
+        "updated_at": "2023-08-30T12:45:31.682Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f7abccce-5b2d-4b31-bc3c-9b50d2132441",
+        "role_name": "Team Lead",
+        "created_at": "2023-08-30T03:19:30.187Z",
+        "updated_at": "2023-08-29T22:59:19.224Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "listing": [
+      {
+        "id": "a157ab60-4046-4c0a-9b1d-126f94f5f457",
+        "title": "Apartment for Rent",
+        "description": "Spacious apartment with great amenities",
+        "price": 638,
+        "category": "Real Estate",
+        "status": "Active",
+        "created_at": "2023-08-30T12:57:03.167Z",
+        "updated_at": "2023-08-30T06:48:52.314Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "a6947127-973f-4802-a370-e37eef787751",
+        "title": "Used Car for Sale",
+        "description": "Well-maintained car in excellent condition",
+        "price": 7352,
+        "category": "Automotive",
+        "status": "Pending",
+        "created_at": "2023-08-30T05:47:19.271Z",
+        "updated_at": "2023-08-30T11:36:48.005Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "76fa2e95-80fb-4fa8-b0c3-b4c0d898be7d",
+        "title": "Job Opportunity",
+        "description": "Exciting career opportunity with competitive salary",
+        "price": 40089,
+        "category": "Employment",
+        "status": "Sold",
+        "created_at": "2023-08-30T14:03:27.834Z",
+        "updated_at": "2023-08-30T03:47:27.123Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "62a70c5f-8a03-4af7-953a-d529e6925db4",
+        "title": "Furniture for Sale",
+        "description": "High-quality furniture at affordable prices",
+        "price": 9337,
+        "category": "Furniture",
+        "status": "Expired",
+        "created_at": "2023-08-29T20:04:48.240Z",
+        "updated_at": "2023-08-30T09:23:58.047Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "4e8b6341-b3f9-4f61-a6bb-9527bf29ba73",
+        "title": "Event Tickets",
+        "description": "Tickets to a popular concert",
+        "price": 12457,
+        "category": "Entertainment",
+        "status": "Featured",
+        "created_at": "2023-08-30T07:07:35.914Z",
+        "updated_at": "2023-08-29T22:42:27.236Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "customer": [
+      {
+        "id": "2c832d37-2a85-4bf5-8373-e204eb19135a",
+        "first_name": "David",
+        "last_name": "Johnson",
+        "email": "david.johnson@gmail.com",
+        "password": "david123",
+        "address": "987 Main Street",
+        "city": "San Francisco",
+        "state": "CA",
+        "zip_code": "94101",
+        "created_at": "2023-08-30T09:02:12.603Z",
+        "updated_at": "2023-08-30T14:21:25.147Z"
+      },
+      {
+        "id": "18fe753b-9449-41b9-b9b6-88d054ebb82e",
+        "first_name": "Emily",
+        "last_name": "Brown",
+        "email": "emily.brown@yahoo.com",
+        "password": "emily456",
+        "address": "654 Elm Avenue",
+        "city": "Seattle",
+        "state": "WA",
+        "zip_code": "98101",
+        "created_at": "2023-08-29T20:34:10.862Z",
+        "updated_at": "2023-08-30T15:08:37.891Z"
+      },
+      {
+        "id": "004d2b01-4c16-40c2-aec3-6aa07e3bb8f1",
+        "first_name": "Daniel",
+        "last_name": "Miller",
+        "email": "daniel.miller@hotmail.com",
+        "password": "daniel789",
+        "address": "321 Oak Drive",
+        "city": "Boston",
+        "state": "MA",
+        "zip_code": "02101",
+        "created_at": "2023-08-30T09:13:43.963Z",
+        "updated_at": "2023-08-30T01:02:35.624Z"
+      },
+      {
+        "id": "a3c88ae6-94c7-4194-b8a6-71b1eb112148",
+        "first_name": "Olivia",
+        "last_name": "Davis",
+        "email": "olivia.davis@gmail.com",
+        "password": "olivia123",
+        "address": "789 Maple Lane",
+        "city": "Denver",
+        "state": "CO",
+        "zip_code": "80201",
+        "created_at": "2023-08-30T17:01:48.047Z",
+        "updated_at": "2023-08-29T23:13:14.441Z"
+      },
+      {
+        "id": "f058c477-2443-44d1-bc9e-c5f91f902a74",
+        "first_name": "Sophia",
+        "last_name": "Wilson",
+        "email": "sophia.wilson@yahoo.com",
+        "password": "sophia456",
+        "address": "456 Pine Road",
+        "city": "Atlanta",
+        "state": "GA",
+        "zip_code": "30301",
+        "created_at": "2023-08-30T19:08:04.372Z",
+        "updated_at": "2023-08-29T20:20:48.766Z"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "aa22e986-6d74-4740-8b09-21ea8c916a45",
+        "email": "Thad_McCullough@hotmail.com",
+        "firstName": "Dewayne",
+        "lastName": "Rippin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/416.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4fc20aea-435f-45f2-8743-cd3cb3a80a51",
+        "email": "Loy_Lindgren@hotmail.com",
+        "firstName": "Kris",
+        "lastName": "Gibson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/62222134",
+        "tenantId": null
+      },
+      {
+        "reference": "38c3afbd-5954-4da6-9392-bdfdac4e3b1e",
+        "email": "Grover96@hotmail.com",
+        "firstName": "Dulce",
+        "lastName": "MacGyver",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/65357946",
+        "tenantId": null
+      },
+      {
+        "reference": "845dbf7d-a10c-40df-8e0e-7441043c9cfc",
+        "email": "Kayleigh_Kautzer@gmail.com",
+        "firstName": "Saige",
+        "lastName": "Wuckert",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6949075",
+        "tenantId": null
+      },
+      {
+        "reference": "53c48994-ad87-4fd9-8eca-65e18f803d3b",
+        "email": "Flavie84@yahoo.com",
+        "firstName": "Kyle",
+        "lastName": "Champlin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/54085502",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "user_role": [
+      {
+        "id": "14527514-bd93-4e53-bde8-009fc601dfaf",
+        "role_name": "Admin",
+        "created_at": "2023-08-30T09:44:14.640Z",
+        "updated_at": "2023-08-30T07:48:18.833Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3528a1e7-3ca0-4e2d-b12e-3ecf4c70dda5",
+        "role_name": "Manager",
+        "created_at": "2023-08-30T01:49:42.238Z",
+        "updated_at": "2023-08-30T18:36:58.531Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6b661143-27c3-4550-a558-aea6ae74ad10",
+        "role_name": "Employee",
+        "created_at": "2023-08-30T17:07:32.845Z",
+        "updated_at": "2023-08-29T20:36:50.188Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e00b46f8-e33f-40b4-a7d7-a5e5dc10b02a",
+        "role_name": "Supervisor",
+        "created_at": "2023-08-30T00:02:37.114Z",
+        "updated_at": "2023-08-30T09:46:18.783Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "119e7a6c-8e1d-4413-848b-81d3fbec8459",
+        "role_name": "Analyst",
+        "created_at": "2023-08-30T03:29:32.363Z",
+        "updated_at": "2023-08-30T10:44:26.462Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "listing": [
+      {
+        "id": "3ba25be7-500f-4472-bc02-ca0227ea618c",
+        "title": "Job Opening",
+        "description": "Looking for a talented individual to join our team",
+        "price": 14544,
+        "category": "Jobs",
+        "status": "Active",
+        "created_at": "2023-08-30T06:45:09.785Z",
+        "updated_at": "2023-08-29T21:36:24.988Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "3d9d7108-5b50-4756-af62-9bac80a87bd3",
+        "title": "Apartment for Rent",
+        "description": "Spacious 2-bedroom apartment available for rent",
+        "price": 17112,
+        "category": "Real Estate",
+        "status": "Inactive",
+        "created_at": "2023-08-30T02:22:53.784Z",
+        "updated_at": "2023-08-30T13:45:23.043Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "95faff90-0fa4-40b6-a89d-6b0d8b8929b9",
+        "title": "Car for Sale",
+        "description": "Selling a used car in excellent condition",
+        "price": 63241,
+        "category": "Vehicles",
+        "status": "Pending",
+        "created_at": "2023-08-30T00:58:08.555Z",
+        "updated_at": "2023-08-30T06:19:34.985Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "dd3912bc-ed53-4d27-8782-2921e5169746",
+        "title": "Furniture for Sale",
+        "description": "Selling furniture items at discounted prices",
+        "price": 5546,
+        "category": "Furniture",
+        "status": "Sold",
+        "created_at": "2023-08-30T12:06:45.906Z",
+        "updated_at": "2023-08-30T11:15:42.572Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "b00a6643-957e-46e7-8aeb-8d416aecbf2f",
+        "title": "Event Tickets",
+        "description": "Tickets available for upcoming concert",
+        "price": 19311,
+        "category": "Events",
+        "status": "Expired",
+        "created_at": "2023-08-29T20:33:24.919Z",
+        "updated_at": "2023-08-29T20:43:52.222Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "customer": [
+      {
+        "id": "609ac922-a597-4821-8a8a-f7f3d82acc50",
+        "first_name": "John",
+        "last_name": "Doe",
+        "email": "john.doe@example.com",
+        "password": "p@ssw0rd",
+        "address": "123 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10001",
+        "created_at": "2023-08-29T20:18:04.556Z",
+        "updated_at": "2023-08-30T03:10:09.126Z"
+      },
+      {
+        "id": "212bd69d-98b1-459f-90dd-e9eee0aafbb4",
+        "first_name": "Jane",
+        "last_name": "Smith",
+        "email": "jane.smith@example.com",
+        "password": "securepass",
+        "address": "456 Elm St",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip_code": "90001",
+        "created_at": "2023-08-30T17:38:33.138Z",
+        "updated_at": "2023-08-30T18:27:55.320Z"
+      },
+      {
+        "id": "3d87d388-d956-4073-ad46-9a29d7b0ec1e",
+        "first_name": "Michael",
+        "last_name": "Johnson",
+        "email": "michael.johnson@example.com",
+        "password": "12345678",
+        "address": "789 Oak St",
+        "city": "Chicago",
+        "state": "IL",
+        "zip_code": "60601",
+        "created_at": "2023-08-30T09:18:33.052Z",
+        "updated_at": "2023-08-29T22:26:05.716Z"
+      },
+      {
+        "id": "6ad488ef-5048-427e-b3db-63a70961b6b2",
+        "first_name": "Sarah",
+        "last_name": "Wilson",
+        "email": "sarah.wilson@example.com",
+        "password": "password123",
+        "address": "321 Pine St",
+        "city": "Houston",
+        "state": "TX",
+        "zip_code": "77001",
+        "created_at": "2023-08-30T18:24:23.275Z",
+        "updated_at": "2023-08-30T17:39:52.122Z"
+      },
+      {
+        "id": "500c4ae0-7085-4a99-81e1-ab49c169fc53",
+        "first_name": "Robert",
+        "last_name": "Brown",
+        "email": "robert.brown@example.com",
+        "password": "letmein",
+        "address": "654 Maple St",
+        "city": "Phoenix",
+        "state": "AZ",
+        "zip_code": "85001",
+        "created_at": "2023-08-30T00:52:25.033Z",
+        "updated_at": "2023-08-30T09:21:19.870Z"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "cdc6db74-fc98-4c30-a909-c0de50685ff1",
+        "email": "Bernard22@gmail.com",
+        "firstName": "Henry",
+        "lastName": "Carter",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/304.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c378656d-49eb-4cd2-8026-77f67cd97cb8",
+        "email": "Whitney_Cruickshank@gmail.com",
+        "firstName": "Imani",
+        "lastName": "Cummings",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/24583845",
+        "tenantId": null
+      },
+      {
+        "reference": "d5fe558f-60d5-4bd1-bc3b-bd8b61321ac1",
+        "email": "Annalise76@gmail.com",
+        "firstName": "Melyssa",
+        "lastName": "Stoltenberg",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/24466916",
+        "tenantId": null
+      },
+      {
+        "reference": "685fcee8-3453-49d7-b914-6a316a965d56",
+        "email": "Francisca_Cremin46@yahoo.com",
+        "firstName": "Betsy",
+        "lastName": "Watsica",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/600.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3019f1d6-e95a-4f7f-acd3-15523ed0c7af",
+        "email": "Hank55@gmail.com",
+        "firstName": "Tyson",
+        "lastName": "Rippin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/898.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "user_role": [
+      {
+        "id": "c76dd6da-98c9-422f-a7df-d39f82a3516a",
+        "role_name": "Admin",
+        "created_at": "2023-08-29T19:38:50.103Z",
+        "updated_at": "2023-08-30T04:14:06.594Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "21c96f06-4322-4a8f-8008-227295ac5467",
+        "role_name": "Manager",
+        "created_at": "2023-08-30T12:23:44.022Z",
+        "updated_at": "2023-08-29T19:41:49.706Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2eb955d5-1bc8-415c-984b-5fa89b6ae6b2",
+        "role_name": "Employee",
+        "created_at": "2023-08-30T16:46:37.893Z",
+        "updated_at": "2023-08-30T13:47:09.299Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a9f4b446-5c39-46d2-afd3-ac4e70b4a3c5",
+        "role_name": "Supervisor",
+        "created_at": "2023-08-30T11:46:23.360Z",
+        "updated_at": "2023-08-30T17:25:57.175Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a01f1c4b-90ea-443f-8c9f-6c2d56056aa1",
+        "role_name": "Intern",
+        "created_at": "2023-08-30T12:52:36.180Z",
+        "updated_at": "2023-08-29T21:40:31.356Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "listing": [
+      {
+        "id": "d8e332c6-8ad6-4e87-8133-3df46172fbed",
+        "title": "Job Opening",
+        "description": "Looking for a skilled developer",
+        "price": 48529,
+        "category": "Jobs",
+        "status": "Active",
+        "created_at": "2023-08-30T17:19:37.260Z",
+        "updated_at": "2023-08-29T20:22:39.110Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "7e6373a3-33ac-4499-90dc-0a24c8ad1bc5",
+        "title": "Apartment for Rent",
+        "description": "Spacious 2-bedroom apartment",
+        "price": 28436,
+        "category": "Real Estate",
+        "status": "Inactive",
+        "created_at": "2023-08-29T22:12:40.149Z",
+        "updated_at": "2023-08-30T10:46:40.368Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "3731fdc1-5f2f-43d2-b737-64cdeec593a0",
+        "title": "Used Car for Sale",
+        "description": "Well-maintained sedan with low mileage",
+        "price": 65438,
+        "category": "Vehicles",
+        "status": "Pending",
+        "created_at": "2023-08-30T12:02:32.007Z",
+        "updated_at": "2023-08-30T13:40:57.757Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "0ddae95a-1c2b-41d3-bc4f-40011ed11959",
+        "title": "Furniture for Sale",
+        "description": "Sofa and dining table set",
+        "price": 15891,
+        "category": "Furniture",
+        "status": "Sold",
+        "created_at": "2023-08-30T02:12:54.752Z",
+        "updated_at": "2023-08-30T12:41:58.692Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "e39ed9cd-16ce-435e-befb-41c8ee0f49be",
+        "title": "Event Tickets",
+        "description": "Concert tickets for popular band",
+        "price": 80567,
+        "category": "Events",
+        "status": "Expired",
+        "created_at": "2023-08-30T07:35:24.460Z",
+        "updated_at": "2023-08-29T23:23:25.965Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "customer": [
+      {
+        "id": "05864d42-939c-45cf-825d-7d3524ec2d7e",
+        "first_name": "Alice",
+        "last_name": "Johnson",
+        "email": "alice.johnson@example.com",
+        "password": "password123",
+        "address": "789 Main St",
+        "city": "San Francisco",
+        "state": "CA",
+        "zip_code": "94101",
+        "created_at": "2023-08-30T13:56:24.635Z",
+        "updated_at": "2023-08-30T17:22:46.079Z"
+      },
+      {
+        "id": "fea403dc-34bd-4ce4-b970-b1103206a419",
+        "first_name": "Bob",
+        "last_name": "Smith",
+        "email": "bob.smith@example.com",
+        "password": "securepass",
+        "address": "321 Elm St",
+        "city": "Seattle",
+        "state": "WA",
+        "zip_code": "98101",
+        "created_at": "2023-08-30T02:43:35.796Z",
+        "updated_at": "2023-08-29T22:39:18.428Z"
+      },
+      {
+        "id": "a5f0ecfb-9bbb-41ca-8d5b-4c9b11fbf37b",
+        "first_name": "Eve",
+        "last_name": "Brown",
+        "email": "eve.brown@example.com",
+        "password": "strongpassword",
+        "address": "654 Oak St",
+        "city": "Austin",
+        "state": "TX",
+        "zip_code": "78701",
+        "created_at": "2023-08-30T02:33:21.004Z",
+        "updated_at": "2023-08-30T14:51:02.349Z"
+      },
+      {
+        "id": "e7e00175-aa2b-4591-b9c6-26de94d59932",
+        "first_name": "Charlie",
+        "last_name": "Davis",
+        "email": "charlie.davis@example.com",
+        "password": "12345678",
+        "address": "987 Pine St",
+        "city": "Boston",
+        "state": "MA",
+        "zip_code": "02101",
+        "created_at": "2023-08-30T17:28:11.367Z",
+        "updated_at": "2023-08-30T14:31:35.021Z"
+      },
+      {
+        "id": "ab98719c-f90d-4671-afba-fd839a6a3b9e",
+        "first_name": "Grace",
+        "last_name": "Wilson",
+        "email": "grace.wilson@example.com",
+        "password": "letmein",
+        "address": "123 Maple St",
+        "city": "Denver",
+        "state": "CO",
+        "zip_code": "80201",
+        "created_at": "2023-08-30T03:17:31.453Z",
+        "updated_at": "2023-08-29T21:50:03.467Z"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "f7572138-df64-4334-b545-1bf7157a5226",
+        "email": "Ezra.Baumbach@hotmail.com",
+        "firstName": "Koby",
+        "lastName": "Turcotte",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/62953038",
+        "tenantId": null
+      },
+      {
+        "reference": "a44708d7-928f-4c81-b8b1-740b092eeb94",
+        "email": "Steve.Ebert2@gmail.com",
+        "firstName": "Eden",
+        "lastName": "Hammes",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/47843905",
+        "tenantId": null
+      },
+      {
+        "reference": "be60764d-3ee5-4e00-8104-1d9524a59fbd",
+        "email": "Hermina.Johns@gmail.com",
+        "firstName": "Kayden",
+        "lastName": "Roberts",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1082.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c97d1f31-6b99-46db-be78-95983e3ea177",
+        "email": "Mohammad.Stroman@yahoo.com",
+        "firstName": "Emmitt",
+        "lastName": "Mante",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/578.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7ffc106c-b460-4381-b538-ee9a7a05986a",
+        "email": "Mina.Goyette@yahoo.com",
+        "firstName": "Aric",
+        "lastName": "Huels",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/767.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "user_role": [
+      {
+        "id": "af86f972-94c9-490c-9281-767ed0c7f80a",
+        "role_name": "Admin",
+        "created_at": "2023-08-30T01:16:14.676Z",
+        "updated_at": "2023-08-30T17:14:14.216Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f96ecd7a-617b-4fd2-88d8-5ab10955bd7f",
+        "role_name": "Manager",
+        "created_at": "2023-08-30T08:39:28.513Z",
+        "updated_at": "2023-08-30T16:12:18.069Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0d409f77-1678-4553-886a-b4a5eafd835d",
+        "role_name": "Employee",
+        "created_at": "2023-08-30T14:32:31.772Z",
+        "updated_at": "2023-08-30T02:24:37.508Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d391b164-7086-49fb-99e6-1e2eabe3eb33",
+        "role_name": "Supervisor",
+        "created_at": "2023-08-30T02:19:41.038Z",
+        "updated_at": "2023-08-30T14:47:34.822Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5ead7667-a87d-41a4-994b-b05a27b006cb",
+        "role_name": "Analyst",
+        "created_at": "2023-08-30T03:52:57.905Z",
+        "updated_at": "2023-08-30T09:04:35.853Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "listing": [
+      {
+        "id": "703f096f-0e46-44da-9e7d-5a67e0da8a90",
+        "title": "Job Opening",
+        "description": "Looking for a talented professional to join our team",
+        "price": 8660,
+        "category": "Jobs",
+        "status": "Active",
+        "created_at": "2023-08-30T14:35:26.254Z",
+        "updated_at": "2023-08-30T09:24:58.080Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "cc552f1d-e77a-4ccb-a8c6-202553e8ef97",
+        "title": "Apartment for Rent",
+        "description": "Spacious 2-bedroom apartment with stunning views",
+        "price": 78451,
+        "category": "Real Estate",
+        "status": "Pending",
+        "created_at": "2023-08-30T10:41:06.534Z",
+        "updated_at": "2023-08-30T08:23:49.866Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "96ce080f-042a-4b43-bfc2-175dd9e22b62",
+        "title": "Car for Sale",
+        "description": "Selling a reliable and well-maintained vehicle",
+        "price": 92990,
+        "category": "Vehicles",
+        "status": "Sold",
+        "created_at": "2023-08-29T21:36:36.311Z",
+        "updated_at": "2023-08-30T01:59:52.826Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "717ba439-db1a-454f-9843-10ff08b41307",
+        "title": "Furniture for Sale",
+        "description": "High-quality furniture in excellent condition",
+        "price": 26528,
+        "category": "Furniture",
+        "status": "Expired",
+        "created_at": "2023-08-30T06:34:59.256Z",
+        "updated_at": "2023-08-29T23:46:30.495Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "186e8e82-0039-4600-b110-0d8e9f99615a",
+        "title": "Event Tickets",
+        "description": "Tickets for an upcoming concert",
+        "price": 26590,
+        "category": "Events",
+        "status": "Cancelled",
+        "created_at": "2023-08-29T21:16:30.089Z",
+        "updated_at": "2023-08-29T20:52:18.715Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "customer": [
+      {
+        "id": "a8b59f53-cc67-464b-ae12-9cbca385889a",
+        "first_name": "Alice",
+        "last_name": "Johnson",
+        "email": "alice.johnson@example.com",
+        "password": "p@ssw0rd",
+        "address": "987 Elm Street",
+        "city": "San Francisco",
+        "state": "CA",
+        "zip_code": "94101",
+        "created_at": "2023-08-29T23:59:17.489Z",
+        "updated_at": "2023-08-29T19:57:12.900Z"
+      },
+      {
+        "id": "79c456f5-fa0a-4a96-94ce-a1570da84e5f",
+        "first_name": "Bob",
+        "last_name": "Smith",
+        "email": "bob.smith@example.com",
+        "password": "secure123",
+        "address": "654 Oak Avenue",
+        "city": "Seattle",
+        "state": "WA",
+        "zip_code": "98101",
+        "created_at": "2023-08-29T19:53:51.442Z",
+        "updated_at": "2023-08-29T20:53:59.716Z"
+      },
+      {
+        "id": "461801d2-4b72-458d-beec-7c1ca9e0eed3",
+        "first_name": "Eve",
+        "last_name": "Brown",
+        "email": "eve.brown@example.com",
+        "password": "password123",
+        "address": "321 Pine Lane",
+        "city": "Denver",
+        "state": "CO",
+        "zip_code": "80202",
+        "created_at": "2023-08-30T11:41:29.866Z",
+        "updated_at": "2023-08-30T04:15:16.524Z"
+      },
+      {
+        "id": "b497d7e2-71a0-48a7-a349-e2053427e9da",
+        "first_name": "Charlie",
+        "last_name": "Davis",
+        "email": "charlie.davis@example.com",
+        "password": "qwerty",
+        "address": "789 Maple Road",
+        "city": "Boston",
+        "state": "MA",
+        "zip_code": "02101",
+        "created_at": "2023-08-30T08:05:41.690Z",
+        "updated_at": "2023-08-30T01:05:28.745Z"
+      },
+      {
+        "id": "72649fab-379b-48e6-a776-d32a9e3f10e4",
+        "first_name": "Grace",
+        "last_name": "Wilson",
+        "email": "grace.wilson@example.com",
+        "password": "letmein",
+        "address": "456 Birch Drive",
+        "city": "Atlanta",
+        "state": "GA",
+        "zip_code": "30301",
+        "created_at": "2023-08-30T19:04:45.960Z",
+        "updated_at": "2023-08-30T10:06:54.516Z"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "14cf3334-d7c1-4774-a5ff-caa842d09ff4",
+        "email": "Daija74@gmail.com",
+        "firstName": "Jose",
+        "lastName": "Maggio",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/62423052",
+        "tenantId": null
+      },
+      {
+        "reference": "09d7b9dc-aab5-464c-bc4c-2f9824842a3d",
+        "email": "Marina_Torphy@gmail.com",
+        "firstName": "Mallie",
+        "lastName": "Satterfield",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16120156",
+        "tenantId": null
+      },
+      {
+        "reference": "ebdf93e2-ed9b-4a17-88b7-c4140ca87850",
+        "email": "Tyrique.Muller@gmail.com",
+        "firstName": "Arnaldo",
+        "lastName": "Gleason",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/174.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "32aaa366-7d84-47a3-a467-38c5da5ec512",
+        "email": "Deja_Kunze@hotmail.com",
+        "firstName": "Cindy",
+        "lastName": "Rogahn",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/24793741",
+        "tenantId": null
+      },
+      {
+        "reference": "4b95dc76-c7ce-409a-8866-6cfb68395e75",
+        "email": "Burley_Franecki@gmail.com",
+        "firstName": "Amie",
+        "lastName": "Krajcik",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/48529003",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "user_role": [
+      {
+        "id": "e9d3119c-9742-42f2-96ee-86ccbaa45bc7",
+        "role_name": "Admin",
+        "created_at": "2023-08-30T11:58:53.252Z",
+        "updated_at": "2023-08-29T23:39:16.918Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5126cb59-c473-47a2-8e3e-beed2eb11191",
+        "role_name": "Manager",
+        "created_at": "2023-08-30T15:31:48.902Z",
+        "updated_at": "2023-08-30T12:16:05.462Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a07cf9c1-2cfb-4282-93f8-bf2419a2ff6e",
+        "role_name": "Employee",
+        "created_at": "2023-08-30T06:05:04.731Z",
+        "updated_at": "2023-08-30T02:40:32.153Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9c1dcb21-61ff-4591-b28a-f740208ab382",
+        "role_name": "Supervisor",
+        "created_at": "2023-08-30T00:04:06.424Z",
+        "updated_at": "2023-08-30T07:52:52.296Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "91765074-23b5-4c1d-966c-223e90f3940b",
+        "role_name": "Intern",
+        "created_at": "2023-08-30T17:19:17.217Z",
+        "updated_at": "2023-08-30T03:38:39.661Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "listing": [
+      {
+        "id": "1aa29cbf-faf4-4955-b9ac-5e52f3d319cd",
+        "title": "Job Opening",
+        "description": "Looking for a talented professional",
+        "price": 3787,
+        "category": "Jobs",
+        "status": "Active",
+        "created_at": "2023-08-30T05:24:47.745Z",
+        "updated_at": "2023-08-30T10:53:28.900Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "d62848ab-e1dc-48ed-99fb-d4bb849b466f",
+        "title": "Apartment for Rent",
+        "description": "Spacious apartment with great views",
+        "price": 31768,
+        "category": "Real Estate",
+        "status": "Pending",
+        "created_at": "2023-08-30T18:52:59.187Z",
+        "updated_at": "2023-08-30T10:13:33.539Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "5039575e-30cb-4f57-8ae1-53ca1c800c1b",
+        "title": "Used Car for Sale",
+        "description": "Reliable car in good condition",
+        "price": 1645,
+        "category": "Vehicles",
+        "status": "Sold",
+        "created_at": "2023-08-30T00:36:38.426Z",
+        "updated_at": "2023-08-30T11:58:32.247Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "97ce66ac-2bad-4d43-a21d-7459bf9db0f7",
+        "title": "Furniture for Sale",
+        "description": "Quality furniture at affordable prices",
+        "price": 8422,
+        "category": "Furniture",
+        "status": "Expired",
+        "created_at": "2023-08-29T21:53:12.045Z",
+        "updated_at": "2023-08-29T23:49:48.649Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "dd346466-197f-4220-bdef-a45169685c2b",
+        "title": "Event Tickets",
+        "description": "Tickets for a popular concert",
+        "price": 31868,
+        "category": "Events",
+        "status": "Cancelled",
+        "created_at": "2023-08-30T10:26:15.397Z",
+        "updated_at": "2023-08-29T22:33:15.115Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "customer": [
+      {
+        "id": "badfd93b-715b-4bca-8e15-3bed466bff1e",
+        "first_name": "John",
+        "last_name": "Doe",
+        "email": "john.doe@example.com",
+        "password": "password1",
+        "address": "123 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10001",
+        "created_at": "2023-08-29T21:17:46.556Z",
+        "updated_at": "2023-08-30T17:43:11.388Z"
+      },
+      {
+        "id": "9f3511c0-c372-4b36-8ee5-daa02b9f156b",
+        "first_name": "Jane",
+        "last_name": "Smith",
+        "email": "jane.smith@example.com",
+        "password": "password2",
+        "address": "456 Elm St",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip_code": "90001",
+        "created_at": "2023-08-29T20:58:52.822Z",
+        "updated_at": "2023-08-30T03:28:37.288Z"
+      },
+      {
+        "id": "cc1ddd65-badf-46db-a042-26c1d554f77e",
+        "first_name": "Michael",
+        "last_name": "Brown",
+        "email": "michael.brown@example.com",
+        "password": "password3",
+        "address": "789 Oak St",
+        "city": "Chicago",
+        "state": "IL",
+        "zip_code": "60601",
+        "created_at": "2023-08-30T05:22:49.014Z",
+        "updated_at": "2023-08-30T10:12:44.584Z"
+      },
+      {
+        "id": "48fac421-3f7d-4a43-a582-9f4c07df7354",
+        "first_name": "Sarah",
+        "last_name": "Johnson",
+        "email": "sarah.johnson@example.com",
+        "password": "password4",
+        "address": "321 Maple St",
+        "city": "Houston",
+        "state": "TX",
+        "zip_code": "77001",
+        "created_at": "2023-08-29T23:27:31.519Z",
+        "updated_at": "2023-08-30T06:57:34.353Z"
+      },
+      {
+        "id": "178a3965-58e7-4c08-acae-b52f0d948fe1",
+        "first_name": "David",
+        "last_name": "Wilson",
+        "email": "david.wilson@example.com",
+        "password": "password5",
+        "address": "654 Pine St",
+        "city": "Philadelphia",
+        "state": "PA",
+        "zip_code": "19101",
+        "created_at": "2023-08-30T17:38:09.410Z",
+        "updated_at": "2023-08-30T11:19:46.619Z"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "4dc862a3-4d73-4f42-9c07-e32434c62462",
+        "email": "Hazel_Hilll@gmail.com",
+        "firstName": "Conrad",
+        "lastName": "Predovic",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1156.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "39bdf702-caa0-4fa1-93be-5070cfe8ac45",
+        "email": "Quinten_Moen@yahoo.com",
+        "firstName": "Delfina",
+        "lastName": "Adams",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1212.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "673d21f4-a12a-4958-ab81-8998f61beab0",
+        "email": "Sammie_Conn@hotmail.com",
+        "firstName": "Chad",
+        "lastName": "Beier",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/72494880",
+        "tenantId": null
+      },
+      {
+        "reference": "cd4c0631-ebbd-428e-8c78-c33f2bf91cd3",
+        "email": "Paxton_Marvin85@hotmail.com",
+        "firstName": "Raymundo",
+        "lastName": "Ebert",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/65964569",
+        "tenantId": null
+      },
+      {
+        "reference": "fc2989ae-6965-4a37-bf9f-a48a23ec4be9",
+        "email": "Kamren_Reichel-Grimes@yahoo.com",
+        "firstName": "Brody",
+        "lastName": "Hamill",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1270267",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "user_role": [
+      {
+        "id": "e6b32ebd-314c-46de-9295-9030b0f8f07a",
+        "role_name": "Admin",
+        "created_at": "2023-08-30T01:15:49.187Z",
+        "updated_at": "2023-08-30T13:43:30.438Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "260ee035-3212-4211-b614-7817a46ab966",
+        "role_name": "Manager",
+        "created_at": "2023-08-30T03:47:43.975Z",
+        "updated_at": "2023-08-30T11:05:33.219Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0b49bc96-d186-4480-8222-4a0e46a6c970",
+        "role_name": "Employee",
+        "created_at": "2023-08-30T19:08:03.740Z",
+        "updated_at": "2023-08-30T02:49:29.938Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "25bd1eac-a3bf-4745-ab3f-3280bffc5dcf",
+        "role_name": "Supervisor",
+        "created_at": "2023-08-29T22:26:58.614Z",
+        "updated_at": "2023-08-30T06:32:47.201Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c3ae63ee-e2d3-4626-b76a-450db1883e24",
+        "role_name": "Assistant",
+        "created_at": "2023-08-30T00:08:28.290Z",
+        "updated_at": "2023-08-30T04:20:27.664Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "listing": [
+      {
+        "id": "5a57cf6c-ce52-4cfb-b8e3-339e9c08239a",
+        "title": "Job Opening",
+        "description": "Looking for a skilled professional",
+        "price": 21745,
+        "category": "Jobs",
+        "status": "Active",
+        "created_at": "2023-08-30T12:50:16.390Z",
+        "updated_at": "2023-08-30T01:32:54.619Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "021b6228-b77c-4d62-80a2-cd87fc6aadf8",
+        "title": "Apartment for Rent",
+        "description": "Spacious and modern apartment",
+        "price": 24988,
+        "category": "Real Estate",
+        "status": "Inactive",
+        "created_at": "2023-08-30T06:25:27.229Z",
+        "updated_at": "2023-08-30T07:43:37.663Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "66a4dd7f-735f-4323-a92b-108ffe0a83e2",
+        "title": "Used Car for Sale",
+        "description": "Well-maintained vehicle",
+        "price": 29030,
+        "category": "Vehicles",
+        "status": "Pending",
+        "created_at": "2023-08-30T00:32:51.188Z",
+        "updated_at": "2023-08-30T03:31:47.775Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "2677b238-f6e2-4c10-8c7a-11dd857dfa1d",
+        "title": "Furniture for Sale",
+        "description": "High-quality furniture",
+        "price": 45373,
+        "category": "Furniture",
+        "status": "Sold",
+        "created_at": "2023-08-30T03:27:43.197Z",
+        "updated_at": "2023-08-30T12:30:16.228Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "cd904ea4-feda-4bf9-81f5-0e9266e34b1d",
+        "title": "Event Tickets",
+        "description": "Tickets for a popular concert",
+        "price": 61184,
+        "category": "Events",
+        "status": "Expired",
+        "created_at": "2023-08-30T13:17:24.185Z",
+        "updated_at": "2023-08-30T10:37:03.434Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "customer": [
+      {
+        "id": "242f15c9-c6b4-4d68-8ae7-8852159f87ea",
+        "first_name": "John",
+        "last_name": "Doe",
+        "email": "john.doe@example.com",
+        "password": "P@ssw0rd",
+        "address": "123 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10001",
+        "created_at": "2023-08-29T20:40:47.659Z",
+        "updated_at": "2023-08-29T20:31:45.540Z"
+      },
+      {
+        "id": "4fdd8570-17ef-437b-accf-62b9ac85f5c9",
+        "first_name": "Jane",
+        "last_name": "Smith",
+        "email": "jane.smith@example.com",
+        "password": "Secur3P@ss",
+        "address": "456 Elm St",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip_code": "90001",
+        "created_at": "2023-08-30T02:32:09.311Z",
+        "updated_at": "2023-08-30T02:39:33.625Z"
+      },
+      {
+        "id": "ea702e4c-0b30-434e-bacb-94d7e1f8c9c2",
+        "first_name": "Michael",
+        "last_name": "Brown",
+        "email": "michael.brown@example.com",
+        "password": "Str0ngP@ss",
+        "address": "789 Oak St",
+        "city": "Chicago",
+        "state": "IL",
+        "zip_code": "60601",
+        "created_at": "2023-08-30T09:11:21.330Z",
+        "updated_at": "2023-08-30T05:07:07.978Z"
+      },
+      {
+        "id": "c1c005e8-d1a1-4c1d-b8d0-4a28c874765f",
+        "first_name": "Sarah",
+        "last_name": "Johnson",
+        "email": "sarah.johnson@example.com",
+        "password": "P@ssw0rd123",
+        "address": "321 Pine St",
+        "city": "Houston",
+        "state": "TX",
+        "zip_code": "77001",
+        "created_at": "2023-08-30T02:15:30.323Z",
+        "updated_at": "2023-08-30T16:41:32.842Z"
+      },
+      {
+        "id": "6a9358a3-ade1-45f0-aac5-24b11a54ce34",
+        "first_name": "Robert",
+        "last_name": "Wilson",
+        "email": "robert.wilson@example.com",
+        "password": "P@ssw0rd!",
+        "address": "654 Maple St",
+        "city": "Phoenix",
+        "state": "AZ",
+        "zip_code": "85001",
+        "created_at": "2023-08-30T10:24:05.759Z",
+        "updated_at": "2023-08-29T22:49:01.352Z"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "4f75b7fc-dc94-4748-8808-5903f7b4d556",
+        "email": "Vivianne.Hilpert@gmail.com",
+        "firstName": "Brayan",
+        "lastName": "Haag",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18864900",
+        "tenantId": null
+      },
+      {
+        "reference": "c78f2f77-64f6-4e75-b6d5-ae81d367bd76",
+        "email": "Camren.Wintheiser46@yahoo.com",
+        "firstName": "Luna",
+        "lastName": "Kuhic",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3528086",
+        "tenantId": null
+      },
+      {
+        "reference": "a3b11ecc-b2a0-442d-8f6b-3014ea39d0fb",
+        "email": "Micah.Mitchell11@gmail.com",
+        "firstName": "Aidan",
+        "lastName": "Feeney",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/72492267",
+        "tenantId": null
+      },
+      {
+        "reference": "337360cd-d586-44bd-a4cf-ad36607055d4",
+        "email": "Richie_Wintheiser29@gmail.com",
+        "firstName": "Cicero",
+        "lastName": "Ferry",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/75841574",
+        "tenantId": null
+      },
+      {
+        "reference": "9ae755be-c831-4b0f-91eb-1a1ea9763211",
+        "email": "Alena_Abbott@gmail.com",
+        "firstName": "Ophelia",
+        "lastName": "Nader",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11529262",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "user_role": [
+      {
+        "id": "49472e37-cc17-466a-99a4-7aaf1e6c61c3",
+        "role_name": "Admin",
+        "created_at": "2023-08-30T06:52:22.375Z",
+        "updated_at": "2023-08-30T15:01:56.197Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "db176983-da90-4b61-982e-efd4eab3f0de",
+        "role_name": "Manager",
+        "created_at": "2023-08-30T07:06:32.106Z",
+        "updated_at": "2023-08-29T22:24:14.021Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c38975d3-1071-4bb3-812d-7bcf73b21dbb",
+        "role_name": "Employee",
+        "created_at": "2023-08-30T17:38:59.655Z",
+        "updated_at": "2023-08-30T14:52:18.775Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c76b5ccb-a1c7-4b61-b966-f36d8ff6e020",
+        "role_name": "Supervisor",
+        "created_at": "2023-08-29T22:39:51.967Z",
+        "updated_at": "2023-08-29T19:55:45.909Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "35630201-073c-47d0-b011-4fabb1821310",
+        "role_name": "Analyst",
+        "created_at": "2023-08-29T23:57:05.316Z",
+        "updated_at": "2023-08-30T13:38:56.685Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "listing": [
+      {
+        "id": "5d8c8f13-2662-4a84-9714-c5a3b3a9ac4a",
+        "title": "Luxury Apartment in Downtown",
+        "description": "Stunning apartment with panoramic city views",
+        "price": 10822,
+        "category": "Real Estate",
+        "status": "Available",
+        "created_at": "2023-08-30T17:49:25.097Z",
+        "updated_at": "2023-08-30T01:36:01.048Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "aede8516-945e-4d50-9e05-b717a1004b99",
+        "title": "Beautiful Beachfront Villa",
+        "description": "Exquisite villa with private pool and direct beach access",
+        "price": 96437,
+        "category": "Vacation Rentals",
+        "status": "Pending",
+        "created_at": "2023-08-30T05:48:25.527Z",
+        "updated_at": "2023-08-29T23:49:28.115Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "c9658134-10ea-4a0c-8bcf-2fa4d470a300",
+        "title": "Cozy Cabin in the Woods",
+        "description": "Rustic cabin surrounded by nature and hiking trails",
+        "price": 93551,
+        "category": "Property for Sale",
+        "status": "Sold",
+        "created_at": "2023-08-30T09:24:19.562Z",
+        "updated_at": "2023-08-30T15:36:42.937Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "ee4b41d0-0273-448e-8f12-8d2ca41ad57b",
+        "title": "Spacious Family Home",
+        "description": "Modern home with ample space for a growing family",
+        "price": 53951,
+        "category": "Housing",
+        "status": "Rented",
+        "created_at": "2023-08-30T11:31:57.052Z",
+        "updated_at": "2023-08-30T04:03:43.188Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "529707e5-c8d8-44b7-8c1d-0fb42aa8d177",
+        "title": "Charming Historic Cottage",
+        "description": "Quaint cottage with original features and a peaceful garden",
+        "price": 77304,
+        "category": "Short-Term Accommodation",
+        "status": "Under Contract",
+        "created_at": "2023-08-30T09:52:16.499Z",
+        "updated_at": "2023-08-30T11:57:14.751Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "customer": [
+      {
+        "id": "37f20a45-bea5-47df-8157-05f6d5060acf",
+        "first_name": "John",
+        "last_name": "Doe",
+        "email": "john.doe@example.com",
+        "password": "password1",
+        "address": "123 Main Street",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10001",
+        "created_at": "2023-08-30T04:44:32.344Z",
+        "updated_at": "2023-08-30T18:56:14.489Z"
+      },
+      {
+        "id": "4a650ec3-c13b-4ef5-ab89-85b5254aea04",
+        "first_name": "Jane",
+        "last_name": "Smith",
+        "email": "jane.smith@example.com",
+        "password": "password2",
+        "address": "456 Elm Avenue",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip_code": "90001",
+        "created_at": "2023-08-29T21:01:00.227Z",
+        "updated_at": "2023-08-30T15:37:39.992Z"
+      },
+      {
+        "id": "1bfc8e95-a052-449a-a74b-163c3253dac3",
+        "first_name": "Michael",
+        "last_name": "Brown",
+        "email": "michael.brown@example.com",
+        "password": "password3",
+        "address": "789 Oak Drive",
+        "city": "Chicago",
+        "state": "IL",
+        "zip_code": "60601",
+        "created_at": "2023-08-29T20:35:25.705Z",
+        "updated_at": "2023-08-30T09:35:59.366Z"
+      },
+      {
+        "id": "4a4c2d25-423b-4231-9ad0-b22a5921f984",
+        "first_name": "Sarah",
+        "last_name": "Jones",
+        "email": "sarah.jones@example.com",
+        "password": "password4",
+        "address": "321 Pine Lane",
+        "city": "Houston",
+        "state": "TX",
+        "zip_code": "77001",
+        "created_at": "2023-08-30T06:50:21.567Z",
+        "updated_at": "2023-08-29T23:07:02.818Z"
+      },
+      {
+        "id": "efb34fe6-0b7b-4138-946f-7d6003d1a70f",
+        "first_name": "Robert",
+        "last_name": "Wilson",
+        "email": "robert.wilson@example.com",
+        "password": "password5",
+        "address": "654 Maple Road",
+        "city": "Miami",
+        "state": "FL",
+        "zip_code": "33101",
+        "created_at": "2023-08-30T08:27:45.883Z",
+        "updated_at": "2023-08-30T15:38:53.769Z"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "ae0c1165-4062-4413-a17a-89441c5b1dad",
+        "email": "Jessyca36@gmail.com",
+        "firstName": "Reginald",
+        "lastName": "Ankunding",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1239.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "1998cb9f-610d-45e4-a21f-746b22401919",
+        "email": "Lily20@yahoo.com",
+        "firstName": "Oliver",
+        "lastName": "Braun",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/318.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e55c63c6-faff-45eb-bd3d-778a46d5977b",
+        "email": "Phyllis_Cassin93@yahoo.com",
+        "firstName": "Elody",
+        "lastName": "Weber",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/83294449",
+        "tenantId": null
+      },
+      {
+        "reference": "658a8712-ebc1-475d-ad7d-ea7498c8c4e8",
+        "email": "Jordan.Gislason11@gmail.com",
+        "firstName": "Norris",
+        "lastName": "Stokes",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/97857838",
+        "tenantId": null
+      },
+      {
+        "reference": "82e76cd9-564f-4397-9342-cd344199d071",
+        "email": "Owen.Leannon47@yahoo.com",
+        "firstName": "Kenneth",
+        "lastName": "Strosin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/78890236",
+        "tenantId": null
+      }
+    ]
+  }
+]
